@@ -24,7 +24,7 @@
           {type} - Build type
           {incr} - Incremental version
     -->
-    <string name="updater_server_url" translatable="false">https://download.lineageos.org/api/v2/devices/{device}/builds</string>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/Elvettorato/lineage_ota/refs/heads/main/api/v2/{device}.json</string>
 
     <string name="verification_failed_notification">Verification failed</string>
     <string name="verifying_download_notification">Verifying update</string>
@@ -91,7 +91,7 @@
     <string name="menu_stream_updates_summary">Install updates while downloading. Disable to save update packages for export.</string>
     <string name="menu_delete_update">Delete</string>
     <string name="menu_export_update">Export update</string>
-    <string name="menu_changelog_url" translatable="false">https://download.lineageos.org/<xliff:g id="device_name">%1$s</xliff:g>/changes</string>
+    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/Elvettorato/lineage_ota/refs/heads/main/changelog.txt</string>
     <string name="menu_view_downloads">View on <xliff:g id="brand_name" example="LineageOS">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Metered network warning</string>
     <string name="menu_metered_network_warning_summary">Warn before downloading over mobile data</string>
@@ -118,9 +118,9 @@
     <string name="security_update">Security update</string>
     <string name="show_changelog">Recent changes</string>
     <string name="report_issues">Report issues</string>
-    <string name="report_issue_url" translatable="false">https://wiki.lineageos.org/how-to/bugreport/</string>
+    <string name="report_issue_url" translatable="false">https://github.com/Elvettorato/lineage_ota/issues</string>
     <string name="header_review_updates">Review updates and recent changes on</string>
-    <string name="header_download_url" translatable="false">download.lineageos.org</string>
+    <string name="header_download_url" translatable="false">https://github.com/Elvettorato/lineage_ota</string>
     <string name="found_bug">Found a bug? Report it with our bug report guide:</string>
 
     <string name="updates_zero_state_title">No updates available</string>
